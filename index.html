@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Value-Chain Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <header class="container py-16 flex justify-between items-center" aria-label="Main navigation">
+      <h1 class="h3">AI Value-Chain Explorer</h1>
+      <nav class="flex gap-8" aria-label="Primary">
+        <a href="#/" class="btn btn--secondary" aria-label="Home">Home</a>
+        <a href="#/library" class="btn btn--secondary" aria-label="Success case library">Library</a>
+        <a href="#/about" class="btn btn--secondary" aria-label="About this tool">About</a>
+      </nav>
+    </header>
+
+    <main id="app" class="container py-16" tabindex="-1"></main>
+
+    <!-- Modal root -->
+    <div id="modal" role="dialog" aria-labelledby="modal-title" aria-modal="true" class="hidden"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
